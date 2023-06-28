@@ -18,9 +18,9 @@ body {
 .header-logo {
   color: #4d5ae5;
   font-size: 18px;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -36,15 +36,14 @@ body {
 }
 .header-menu-link:hover,
 .header-menu-link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 .adress-menu-link {
-  color: var(--secondary-text-color);
+  color: #2e2f42;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
 }
 
 /*!----------HERO----------*/
@@ -66,19 +65,25 @@ body {
   font-family: inherit;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  background-color: var(--secondary-text-color);
+  background-color: #4d5ae5;
   cursor: pointer;
 }
-
-/*!----------Section2----------*/
-.section2-title {
+.button-btn:hover,
+.button-btn:focus {
+  background-color: #404bbf;
+}
+/*!----------skills----------*/
+.skills {
+  background-color: #fff;
+}
+.skills-title {
   color: var(--main-text-color);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.section2-text {
+.sskills-text {
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.5;
@@ -86,6 +91,10 @@ body {
 }
 
 /*!----------Section3----------*/
+.section3 {
+  background-color: #fff;
+}
+
 .result-title {
   color: var(--main-text-color);
   text-align: center;
@@ -97,13 +106,12 @@ body {
 }
 
 /*!----------Team----------*/
-
 .team-title {
   color: var(--main-text-color);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -125,6 +133,9 @@ body {
 .team {
   background-color: #f4f4fd;
 }
+.team-item {
+  background-color: #ffffff;
+}
 /*!----------Footer----------*/
 .footer {
   background-color: var(--main-text-color);
@@ -132,8 +143,9 @@ body {
 .footer-logo {
   color: #4d5ae5;
   font-size: 18px;
+  font-family: Raleway, sans-serif;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
