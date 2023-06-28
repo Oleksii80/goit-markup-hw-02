@@ -46,6 +46,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.adress-menu-item {
   font-style: normal;
 }
 .adress-menu-link:hover,
@@ -75,8 +77,8 @@ body {
   background-color: #4d5ae5;
   cursor: pointer;
 }
-.button-btn:hover,
-.button-btn:focus {
+.hero-btn:hover,
+.hero-btn:focus {
   background-color: #404bbf;
 }
 /*!----------skills----------*/
@@ -204,15 +206,10 @@ body {
   background: #404bbf;
 }
 /*!----------Portfolio----------*/
-.portfolio {
+.portfolio-link {
+  text-decoration: none;
 }
-.portfolio-list {
-}
-.portfolio-item {
-}
-.portfolio-img {
-}
-.portfolio-subtitle {
+.portfolio-title {
   color: var(--main-text-color);
   font-size: 20px;
   font-weight: 500;
