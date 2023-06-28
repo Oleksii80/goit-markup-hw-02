@@ -4,6 +4,8 @@
 }
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: #434455;
 }
 
 .link {
@@ -40,10 +42,15 @@ body {
 }
 
 .adress-menu-link {
-  color: #2e2f42;
+  color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: normal;
+}
+.adress-menu-link:hover,
+.header-menu-link:focus {
+  color: #404bbf;
 }
 
 /*!----------HERO----------*/
@@ -83,7 +90,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.sskills-text {
+.skills-text {
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.5;
@@ -162,6 +169,9 @@ body {
 .apps-button-list {
   list-style: none;
 }
+.apps {
+  background: #fff;
+}
 .apps-button-item {
   color: #fff;
   text-align: center;
@@ -171,6 +181,7 @@ body {
   letter-spacing: 0.04em;
 }
 .apps-button-btn {
+  color: #4d5ae5;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
@@ -179,6 +190,7 @@ body {
   font-family: inherit;
   font-style: normal;
   cursor: pointer;
+  background-color: #f4f4fd;
 }
 .apps-button-btn:hover,
 .apps-button-btn:focus {
@@ -204,12 +216,15 @@ body {
   color: var(--main-text-color);
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .portfolio-text {
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.link {
+  text-decoration: none;
 }
