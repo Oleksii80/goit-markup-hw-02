@@ -158,12 +158,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/*!----------button----------*/
-.button {
+/*!----------APPS----------*/
+.apps-button-list {
+  list-style: none;
 }
-.button-list {
-}
-.button-item {
+.apps-button-item {
   color: #fff;
   text-align: center;
   font-size: 16px;
@@ -171,18 +170,24 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-.button-btn {
+.apps-button-btn {
   text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   font-family: inherit;
+  font-style: normal;
+  cursor: pointer;
 }
-.button-btn.dark {
+.apps-button-btn:hover,
+.apps-button-btn:focus {
+  background-color: #404bbf;
+}
+.apps-button-btn.dark {
   color: #4d5ae5;
 }
-.button-btn.light {
+.apps-button-btn.light {
   color: #fff;
   background: #404bbf;
 }
