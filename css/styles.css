@@ -41,17 +41,17 @@ body {
   color: #404bbf;
 }
 
-.adress-menu-link {
+.address-menu-link {
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.adress-menu-item {
+.address {
   font-style: normal;
 }
-.adress-menu-link:hover,
-.header-menu-link:focus {
+.address-menu-link:hover,
+.address-menu-link:focus {
   color: #404bbf;
 }
 
@@ -203,7 +203,7 @@ body {
 }
 .apps-button-btn.light {
   color: #fff;
-  background: #404bbf;
+  background-color: #404bbf;
 }
 /*!----------Portfolio----------*/
 .portfolio-link {
@@ -224,4 +224,7 @@ body {
 }
 .link {
   text-decoration: none;
+}
+.apps-button-list {
+  list-style: none;
 }
