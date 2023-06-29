@@ -172,7 +172,7 @@ body {
   list-style: none;
 }
 .apps {
-  background: #fff;
+  background-color: #fff;
 }
 .apps-button-item {
   color: #fff;
@@ -222,9 +222,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.link {
-  text-decoration: none;
-}
-.apps-button-list {
+.portfolio-list {
   list-style: none;
 }
