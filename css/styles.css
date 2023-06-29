@@ -174,14 +174,7 @@ body {
 .apps {
   background-color: #fff;
 }
-.apps-button-item {
-  color: #fff;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-}
+
 .apps-button-btn {
   color: #4d5ae5;
   text-align: center;
@@ -197,14 +190,9 @@ body {
 .apps-button-btn:hover,
 .apps-button-btn:focus {
   background-color: #404bbf;
-}
-.apps-button-btn.dark {
-  color: #4d5ae5;
-}
-.apps-button-btn.light {
   color: #fff;
-  background-color: #404bbf;
 }
+
 /*!----------Portfolio----------*/
 .portfolio-link {
   text-decoration: none;
